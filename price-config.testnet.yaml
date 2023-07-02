@@ -13,8 +13,18 @@
   time_difference: 60
   price_deviation: 1
   confidence_ratio: 1
-- alias: MNT/USD
-  id: d45b6d47bf43faa700e6f6fec4f8989fcc80eabb2f2eff862d7258d60026d1b5
+#- alias: MNT/USD
+#  id: d45b6d47bf43faa700e6f6fec4f8989fcc80eabb2f2eff862d7258d60026d1b5
+#  time_difference: 60
+#  price_deviation: 1
+#  confidence_ratio: 1
+- alias: USDT/USD
+  id: 1fc18861232290221461220bd4e2acd1dcdfbc89c84092c93c18bdc7756c1588
+  time_difference: 60
+  price_deviation: 1
+  confidence_ratio: 1
+- alias: USDC/USD
+  id: 41f3625971ca2ed2263e78573fe5ce23e13d2558ed3f2e47ab0f84fb9e7ae722
   time_difference: 60
   price_deviation: 1
   confidence_ratio: 1
