@@ -14,7 +14,7 @@
   price_deviation: 1
   confidence_ratio: 1
 - alias: MNT/USD
-  id: 0xd45b6d47bf43faa700e6f6fec4f8989fcc80eabb2f2eff862d7258d60026d1b5
+  id: d45b6d47bf43faa700e6f6fec4f8989fcc80eabb2f2eff862d7258d60026d1b5
   time_difference: 60
   price_deviation: 1
   confidence_ratio: 1
