@@ -1,7 +1,7 @@
 services:
   spy:
     # Find latest Guardian images in https://github.com/wormhole-foundation/wormhole/pkgs/container/guardiand
-    image: ghcr.io/wormhole-foundation/guardiand:v2.14.8.1
+    image: ghcr.io/wormhole-foundation/guardiand:v2.23.22
     command:
       - "spy"
       - "--nodeKey"
@@ -16,7 +16,7 @@ services:
       - "warn"
   price-service:
     # Find latest price service images https://gallery.ecr.aws/pyth-network/xc-server
-    image: public.ecr.aws/pyth-network/xc-server:v3.0.3
+    image: public.ecr.aws/pyth-network/xc-server:v3.1.2
     environment:
       SPY_SERVICE_HOST: "spy:7072"
       SPY_SERVICE_FILTERS: |
@@ -55,7 +55,7 @@ services:
     # Uncomment this line (and comment out the above lines) to use a prebuilt image. Replace <version>
     # with the latest released image of the price pusher from this repo release page:
     # https://github.com/pyth-network/pyth-crosschain/releases
-    image: public.ecr.aws/pyth-network/xc-price-pusher:v4.1.1
+    image: public.ecr.aws/pyth-network/xc-price-pusher:v5.4.0
     restart: always
     command:
       - "--"
