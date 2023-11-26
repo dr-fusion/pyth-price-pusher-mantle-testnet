@@ -1,10 +1,10 @@
 - alias: BTC/USD
-  id: e62df6c8b4a85fe1a67db44dc12de5db330f7ac66b72dc658afedf0f4a415b43
+  id: f9c0172ba10dfa4d19088d94f5bf61d3b54d5bd7483a322a982e1373ee8ea31b
   time_difference: 60
   price_deviation: 0.5
   confidence_ratio: 1
 - alias: ETH/USD
-  id: ff61491a931112ddf1bd8147cd1b641375f79f5825126d665480874634fd0ace
+  id: ca80ba6dc32e08d06f1aa886011eed1d77c77be9eb761cc10d72b7d0a2fd57a6
   time_difference: 60
   price_deviation: 0.5
   confidence_ratio: 1
@@ -14,17 +14,17 @@
 #   price_deviation: 1
 #   confidence_ratio: 1
 - alias: MNT/USD
-  id: 4e3037c822d852d79af3ac80e35eb420ee3b870dca49f9344a38ef4773fb0585
+  id: d45b6d47bf43faa700e6f6fec4f8989fcc80eabb2f2eff862d7258d60026d1b5
   time_difference: 60
   price_deviation: 1
   confidence_ratio: 1
 - alias: USDC/USD
-  id: eaa020c61cc479712813461ce153894a96a6c00b21ed0cfc2798d1f9a9e9c94a
+  id: 41f3625971ca2ed2263e78573fe5ce23e13d2558ed3f2e47ab0f84fb9e7ae722
   time_difference: 60
   price_deviation: 1
   confidence_ratio: 1
 - alias: USDT/USD
-  id: 2b89b9dc8fdf9f34709a5b106b472f0f39bb6ca9ce04b0fd7f2e971688e2e53b
+  id: 1fc18861232290221461220bd4e2acd1dcdfbc89c84092c93c18bdc7756c1588
   time_difference: 60
   price_deviation: 1
   confidence_ratio: 1
